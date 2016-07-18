@@ -1,5 +1,7 @@
 
-<?php include('head.php');?>
+<?php
+session_start();
+include('head.php');?>
 <body ng-app="iswapp">
 
 <div class="container">

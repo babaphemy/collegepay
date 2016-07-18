@@ -1,4 +1,5 @@
 <?php
+session_start();
 include('head.php');
 include('incs/options.php');
 $submittedref = $_POST['txnref'];

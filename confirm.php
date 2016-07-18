@@ -1,4 +1,5 @@
 <?php
+session_start();
 include('incs/options.php');
 include('head.php');
 //if(isset($_POST['name'])){
