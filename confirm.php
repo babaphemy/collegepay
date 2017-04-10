@@ -36,7 +36,7 @@ $tref = $_SESSION['genref'];
                         <span class="glyphicon-credit-card"></span>
 
                         <form name="contactform" method="post"
-                              action="https://stageserv.interswitchng.com/test_paydirect/pay">
+                              action="https://sandbox.interswitchng.com/webpay/pay">
                             <h4><span class="glyphicon glyphicon-pushpin"></span>
                                 Your Reference: <p>(<span style="color:#F00"><?php echo $tref; ?></span>)</p><br/>
                                 You are paying : <p>(<span
