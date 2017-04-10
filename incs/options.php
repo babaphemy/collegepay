@@ -25,7 +25,7 @@
         );
         $ponmo = http_build_query($parami) . "\n";
 
-        $query_url = 'https://stageserv.interswitchng.com/test_paydirect/api/v1/gettransaction.json';
+        $query_url = 'https://sandbox.interswitchng.com/webpay/api/v1/gettransaction.json';
         //$query_url = 'https://webpay.interswitchng.com/paydirect/api/v1/gettransaction.json';
         $url 	= "$query_url?productid=$pdt&transactionreference=$ref&amount=$amt";
         //note the variables appended to the url as get values for these parameters
